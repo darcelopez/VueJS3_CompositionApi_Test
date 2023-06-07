@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <!-- <div>Banner</div> -->
+  <div id="banner">  
+    <h1>
+      Testing Composition Api
+    </h1>
+  </div>
   <header>
     <!-- <img alt="Vue logo" class="logo" src="@/assets/common/logo.png" width="250" height="80" /> -->
 
@@ -22,6 +26,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+  #banner {
+    text-align: center;
+  }
+
   header {
     line-height: 1.5;
     /* max-height: 100vh; */
