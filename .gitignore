@@ -1,0 +1,10 @@
+node_modules
+
+*.zip
+vue-project/src/assets/common
+vue-project/src/assets/for_babies
+vue-project/src/assets/for_boys
+vue-project/src/assets/for_girls
+vue-project/src/assets/for_home
+vue-project/src/assets/for_play
+vue-project/src/assets/main
